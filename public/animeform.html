@@ -1,0 +1,36 @@
+<h2>Welcome to Anime World</h2>
+<p>Please fill of the form to be membership of this world</p>
+
+<form action="action.php" method="post" target="_blank" autocomplete="on">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname"><br><br>
+        <label for="contact">Contact number:</label>
+        <input type="tel" name="contact" id="contact">
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address"><br><br>
+        <label for="anime">Choose one of the favourite anime:</label>
+        <select name="anime" id="anime">
+            <option value="onepiece">One Piece</option>
+            <option value="naruto" selected>Naruto</option>
+            <option value="demonslayer">Demon Slayer</option>
+            <option value="bluelock">Blue Lock</option>
+            <option value="fairytail">Fairy Tail</option>
+        </select><br><br>
+        <label for="genre">Which genre of anime do you like the most?</label><br>
+        <input type="radio" name="fantasy" id="fantasy">
+        <label for="fantasy">Fantasy</label><br>
+        <input type="radio" name="action" id="action">
+        <label for="action">Action</label><br>
+        <input type="radio" name="adventure" id="adventure">
+        <label for="adventure">Adventure</label><br>
+        <input type="radio" name="fiction" id="fiction">
+        <label for="fiction">Fiction</label>
+        <br><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </fieldset>
+</form>
