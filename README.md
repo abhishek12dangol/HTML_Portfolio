@@ -1,2 +1,3 @@
 # HTML_Portfolio
-Author: Abhishek Dangol
+
+Author: Abhishek Dangol (Web Developer)
